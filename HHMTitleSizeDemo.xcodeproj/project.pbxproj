@@ -13,6 +13,7 @@
 		6358DA881F7A4AD300113619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6358DA871F7A4AD300113619 /* Assets.xcassets */; };
 		6358DA8B1F7A4AD300113619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6358DA891F7A4AD300113619 /* LaunchScreen.storyboard */; };
 		6358DA8E1F7A4AD300113619 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6358DA8D1F7A4AD300113619 /* main.m */; };
+		6358DA971F7A4AFE00113619 /* NSString+TitleSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 6358DA961F7A4AFE00113619 /* NSString+TitleSize.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		6358DA8A1F7A4AD300113619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6358DA8C1F7A4AD300113619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6358DA8D1F7A4AD300113619 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6358DA951F7A4AFE00113619 /* NSString+TitleSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+TitleSize.h"; sourceTree = "<group>"; };
+		6358DA961F7A4AFE00113619 /* NSString+TitleSize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+TitleSize.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		6358DA7D1F7A4AD300113619 /* HHMTitleSizeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6358DA941F7A4AEE00113619 /* HHMTitleSize */,
 				6358DA7E1F7A4AD300113619 /* AppDelegate.h */,
 				6358DA7F1F7A4AD300113619 /* AppDelegate.m */,
 				6358DA811F7A4AD300113619 /* ViewController.h */,
@@ -69,6 +73,15 @@
 				6358DA8D1F7A4AD300113619 /* main.m */,
 			);
 			path = HHMTitleSizeDemo;
+			sourceTree = "<group>";
+		};
+		6358DA941F7A4AEE00113619 /* HHMTitleSize */ = {
+			isa = PBXGroup;
+			children = (
+				6358DA951F7A4AFE00113619 /* NSString+TitleSize.h */,
+				6358DA961F7A4AFE00113619 /* NSString+TitleSize.m */,
+			);
+			path = HHMTitleSize;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +158,7 @@
 				6358DA831F7A4AD300113619 /* ViewController.m in Sources */,
 				6358DA8E1F7A4AD300113619 /* main.m in Sources */,
 				6358DA801F7A4AD300113619 /* AppDelegate.m in Sources */,
+				6358DA971F7A4AFE00113619 /* NSString+TitleSize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +293,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CE7Z2WQ7MW;
 				INFOPLIST_FILE = HHMTitleSizeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = duoweidu.HHMTitleSizeDemo;
@@ -292,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CE7Z2WQ7MW;
 				INFOPLIST_FILE = HHMTitleSizeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = duoweidu.HHMTitleSizeDemo;
